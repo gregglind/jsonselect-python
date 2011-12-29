@@ -39,6 +39,10 @@ Develop
 
 cf:  http://blog.mozilla.com/webdev/2011/11/21/git-using-topic-branches-and-interactive-rebasing-effectively/
 
+To grab my changes...
+
+    git remote add gregglind git://github.com/gregglind/jsonselect-python.git
+    git rebase gregglind/master  # or upstream/development or whatnot
 
 See Also
 ------------
